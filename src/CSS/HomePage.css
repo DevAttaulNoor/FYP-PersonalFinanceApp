@@ -1,0 +1,113 @@
+/* Homepage */
+.homepage {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+/* Homepage Sidebar */
+.homepageSidebar {
+    grid-column: 1 / span 1;
+    color: #fff;
+    background-color: #242424;
+    padding: 20px;
+}
+
+/* Homepage Sidebar App Features */
+.appFeatures{
+}
+
+.appFeatures h5{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.appFeatures .appFeaturesOptions{
+    font-size: 16px;
+    font-weight: 550;
+    margin: 10px 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.appFeatures .appFeaturesOptions:hover{
+    background-color: #3f3f3f;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1ms ease-in-out;
+}
+
+.appFeatures .appFeaturesOptions .MuiSvgIcon-root{
+    width: 26px;
+    height: 26px;
+}
+
+.appFeatures .appFeaturesOptions p{
+    margin-left: 15px;
+}
+
+/* Homepage Main */
+.homepageMain {
+    grid-column: 2 / span 1;
+    background-color: #f6f6f6;
+    padding: 40px;
+}
+
+.homepageMain_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepageMain_top_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepageMain_top_left p{
+    padding: 4px 0 0 0;
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.homepageMain_top_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepageMain_top_right .userImg{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.homepageMain_top_right .userImg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.homepageMain_top_right .userInfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.homepageMain_top_right .userInfo #userName{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.homepageMain_top_right .userInfo #userCountry{
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}

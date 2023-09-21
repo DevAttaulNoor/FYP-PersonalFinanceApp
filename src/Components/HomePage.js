@@ -44,9 +44,7 @@ function HomePage() {
                         <HistoryOutlinedIcon />
                         <p>History</p>
                     </div>
-
                     <h5>Prefrences</h5>
-
                     <div className="appFeaturesOptions">
                         <WbSunnyOutlinedIcon />
                         <p>Themes</p>
@@ -84,6 +82,7 @@ function HomePage() {
                         <Cards />
                     </div>
                 </div>
+                
                 {/* Balance Card */}
                 {/* Expenses Card */}
                 {/* Cash Flow Card */}

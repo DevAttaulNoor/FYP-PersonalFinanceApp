@@ -44,7 +44,7 @@ function HomePage() {
                         <HistoryOutlinedIcon />
                         <p>History</p>
                     </div>
-                    <h5>Prefrences</h5>
+                    <h5>Preferences</h5>
                     <div className="appFeaturesOptions">
                         <WbSunnyOutlinedIcon />
                         <p>Themes</p>
@@ -55,7 +55,7 @@ function HomePage() {
                     </div>
                     <div className="appFeaturesOptions">
                         <SettingsOutlinedIcon />
-                        <p>Setting</p>
+                        <p>Settings</p>
                     </div>
                 </div>
             </div>
@@ -64,15 +64,15 @@ function HomePage() {
                 <div className="homepageMain_top">
                     <div className="homepageMain_top_left">
                         <h1>Welcome to Personal Finance</h1>
-                        <p>Hello User name, Welcome back</p>
+                        <p>Hello user, Welcome back</p>
                     </div>
                     <div className="homepageMain_top_right">
                         <div className='userImg'>
                             <img src={userimg} alt="userimg" />
                         </div>
                         <div className='userInfo'>
-                            <p id="userName">Bilal</p>
-                            <p id="userCountry">Sindh, Pakistan</p>
+                            <p id="userName">name</p>
+                            <p id="userCountry">state, country</p>
                         </div>
                     </div>
                 </div>

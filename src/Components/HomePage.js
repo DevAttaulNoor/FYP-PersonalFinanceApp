@@ -63,7 +63,7 @@ function HomePage() {
             <div className="homepageMain">
                 <div className="homepageMain_top">
                     <div className="homepageMain_top_left">
-                        <h1>Welcome to Personal Financer</h1>
+                        <h1>Welcome to Personal Finance</h1>
                         <p>Hello User name, Welcome back</p>
                     </div>
                     <div className="homepageMain_top_right">

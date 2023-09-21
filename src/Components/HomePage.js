@@ -71,8 +71,8 @@ function HomePage() {
                             <img src={userimg} alt="userimg" />
                         </div>
                         <div className='userInfo'>
-                            <p id="userName">Atta ul Noor</p>
-                            <p id="userCountry">Karachi, Pakistan</p>
+                            <p id="userName">Bilal</p>
+                            <p id="userCountry">Sindh, Pakistan</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ function HomePage() {
                         <Cards />
                     </div>
                 </div>
-                
+
                 {/* Balance Card */}
                 {/* Expenses Card */}
                 {/* Cash Flow Card */}

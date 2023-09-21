@@ -64,7 +64,7 @@ function HomePage() {
                 <div className="homepageMain_top">
                     <div className="homepageMain_top_left">
                         <h1>Welcome to Personal Finance</h1>
-                        <p>Hello user, Welcome back</p>
+                        <p>Hello username, Welcome back</p>
                     </div>
                     <div className="homepageMain_top_right">
                         <div className='userImg'>
@@ -72,7 +72,7 @@ function HomePage() {
                         </div>
                         <div className='userInfo'>
                             <p id="userName">name</p>
-                            <p id="userCountry">state, country</p>
+                            <p id="userCountry">city, state, country</p>
                         </div>
                     </div>
                 </div>

@@ -71,8 +71,8 @@ function HomePage() {
                             <img src={userimg} alt="userimg" />
                         </div>
                         <div className='userInfo'>
-                            <p id="userName">name</p>
-                            <p id="userCountry">city, state, country</p>
+                            <p id="userName">Rafay</p>
+                            <p id="userCountry">Karachi, Country</p>
                         </div>
                     </div>
                 </div>
